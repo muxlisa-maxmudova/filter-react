@@ -32,15 +32,18 @@
     left: 0;
     height: 20px;
     width: 20px;
-    background: #ccc;
+    background: #eee;
     border-radius: 50%;
 }
 
 .all{
-    background: linear-gradient(blue, crimson);
+    background: linear-gradient(blue, black);
 }
 
 .sidebar-label-container:hover input ~.checkmark{
+    background-color: #ccc;
+}
+.sidebar-label-container input:checked ~.checkmark{
     background-color: #2196F3;
 }
 
