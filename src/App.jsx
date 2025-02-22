@@ -11,7 +11,10 @@ const App = () => {
     const handleInputChange = (e) => {
         setQuery(e.target.value);
     }// in order to extract value inside search input
-
+    //this bellow works for search input|
+    const filteredItems = products.filter((product)=>{
+        product.title.toLocaleLowerCase().includes(query.toLocaleLowerCase())//in case of anything we tried to use here includes instead of indexOf()
+    });
     return (
         <>
             <Sidebar/>
