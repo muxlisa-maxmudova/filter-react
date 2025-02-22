@@ -2,7 +2,7 @@ import './Sidebar.css'
 import Category from "./Category/Category.jsx";
 import Price from "./Price/Price.jsx";
 import Color from "./Color/Color.jsx";
-import Gender from "./By Gender/Gender.jsx";
+import Gender from "./Gender/Gender.jsx";
 const Sidebar = () => {
     return (
         <>
